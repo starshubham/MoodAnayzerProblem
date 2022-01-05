@@ -6,26 +6,33 @@ using System.Threading.Tasks;
 
 namespace MoodAnalyzerApp
 {
-    public class MoodAnalyse
+    public class MoodAnalyse2
     {
         private string message;
-        
+
         /// <summary>
         /// Parameterised Constructor
         /// </summary>
         /// <param name="message"></param>
-        public MoodAnalyse(string message)
+        public MoodAnalyse2(string message)
         {
             this.message = message;
         }
 
         public string AnalyseMood()
         {
-            if (this.message.Contains("Sad"))
+            try
             {
-                return "SAD";
+                if (this.message.Contains("Sad"))
+                {
+                    return "SAD";
+                }
+                else
+                {
+                    return "HAPPY";
+                }
             }
-            else
+            catch
             {
                 return "HAPPY";
             }
