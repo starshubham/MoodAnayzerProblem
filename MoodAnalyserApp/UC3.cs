@@ -1,11 +1,15 @@
 ﻿using System;
 
-namespace MoodAnalyzerApp.UC3
+namespace MoodAnalyzerApp
 {
     public class MoodAnalyse3
     {
         private string message;
 
+        public MoodAnalyse3()
+        {
+
+        }
         /// <summary>
         /// Parameterised Constructor
         /// </summary>

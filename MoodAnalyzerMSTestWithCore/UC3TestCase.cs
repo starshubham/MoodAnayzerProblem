@@ -1,6 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using MoodAnalyzerApp.UC3;
-using System;
+using MoodAnalyzerApp;
 
 namespace MoodAnalyzerMSTestWithCore
 {
@@ -27,6 +26,7 @@ namespace MoodAnalyzerMSTestWithCore
         
         /// <summary>
         /// TC 3.2: Given Empty Mood Should Throw MoodAnalysisException Indicating EmptyMood.
+        /// Given - When - Then
         /// </summary>
         [TestMethod]
         public void Given_Empty_Mood_Should_Throw_MoodAnalysisException_Indicating_EmptyMood()
