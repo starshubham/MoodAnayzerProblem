@@ -8,7 +8,7 @@ namespace MoodAnalyzerApp
 
         public MoodAnalyse3()
         {
-
+            this.message = null;
         }
         /// <summary>
         /// Parameterised Constructor
