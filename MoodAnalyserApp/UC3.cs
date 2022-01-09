@@ -4,7 +4,7 @@ namespace MoodAnalyzerApp
 {
     public class MoodAnalyse3
     {
-        private string message;
+        internal string message;
 
         public MoodAnalyse3()
         {
